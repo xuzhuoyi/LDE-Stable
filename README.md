@@ -1,5 +1,9 @@
-LDE
+LDE-Stable
 ===
+本代码库存放的将是 LDE 0.x-1.8 的稳定分支代码，Testing 分支请前往 LDE 代码库 https://github.com/xuzhuoyi/LDE
+
+由于 Qt 5.4 以后的的版本将停止对 Webkit 的支持，转而使用基于 Chromium 浏览器引擎的 Qt WebEngine，以实现对于 Qt 与 HTML5 混合开发的支持，Qt 5 与 Qt 4 的不兼容性越来越大。为了确保用户体验， LDE 正在从 Qt 4 的传统桌面应用程序风格向 HTML5＋Qt 5 的混合开发转变。然而 Qt 4 的 LDE 仍将获得安全更新和少量功能更新，直到基于 Qt 5 的 LDE 2 完全成熟。
+
 LDE，全名为 Loongson Desktop Environment，可在龙芯等 mipsel 平台上执行。LDE 项目旨在向龙芯用户提供一个低硬件门槛的桌面环境，在轻量化的前提下，尽可能实现更强大的功能。LDE 以 Qt 作为图形界面库，有强大的移植性，在 mipsel 以外的平台也可编译运行。LDE 提供了一些配套的可独立运行元件。LDE 使用 Openbox 为其默认视窗管理器，并且希望能够提供一个建立在可独立的套件上的轻巧而快速的桌面。
 一些信息
 ---
@@ -20,7 +24,7 @@ LDE，全名为 Loongson Desktop Environment，可在龙芯等 mipsel 平台上�
 * Debian stable/testing/sid
 * Gentoo
 * OpenSuse 13.1/Factory
-* Ubuntu 13.10/14.04/14.10
+* Ubuntu 13.10-14.10/15.04 Alpha 1
 
 LDE 理论上支持所有 Linux 发行版
 
@@ -41,7 +45,11 @@ LDE 理论上支持所有 Linux 发行版
 ### 贡献代码
 LDE 使用 Git 作为版本控制系统. 我们所有的代码都可以在 Github 找到
 
-你可以直接从 Github Clone 一份 LDE 的源码
+你可以直接从 Github Clone 一份 LDE-Stable 的源码
+
+    git clone https://github.com/xuzhuoyi/LDE-Stable/
+    
+正在开发的 LDE 2 是采用全新技术的版本，你也可以参与开发
 
     git clone https://github.com/xuzhuoyi/LDE/
 Git 的更多信息，参见官方网站: http://git-scm.com/
